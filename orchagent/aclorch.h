@@ -373,8 +373,8 @@ public:
 protected:
     DTelOrch *m_pDTelOrch;
     string m_intSessionId;
-    bool INT_enabled;
-    bool INT_session_valid;
+    bool INT_enabled {false};
+    bool INT_session_valid {false};
 };
 
 class AclTable
